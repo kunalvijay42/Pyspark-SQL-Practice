@@ -11,4 +11,3 @@ JOIN employees m
     ON e.reports_to = m.employee_id
 GROUP BY m.employee_id, m.name
 ORDER BY m.employee_id;
-
